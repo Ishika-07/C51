@@ -1,0 +1,38 @@
+
+h1{
+    color :aqua
+}
+*{
+    border : solid;
+    border-color: white;
+    }
+    .header{
+
+        background-color:black;
+        display : flex;
+        justify-content: space-between;
+        border-color: black;
+    }
+    .SiteDescription{
+        display:flex;
+        justify-content:first baseline;
+        flex-direction: column;
+    }
+   .grid{
+       display:flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+
+   }
+   .footer{
+       display:flex;
+       justify-content: flex-end;
+
+   }
+   p.h2{
+       text-align: center;
+   }
+   body{
+    background-color: rgb(255, 30, 50);
+
+   }
